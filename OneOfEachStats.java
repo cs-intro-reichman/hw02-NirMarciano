@@ -24,7 +24,7 @@ public class OneOfEachStats {
 			check = false;
 
 			while (!check) {
- 				if(Math.random() < 0.5) {
+ 				if(generator.nextDouble() < 0.5) {
  					str1 = str1 + "b";
  					n++;
  				}
