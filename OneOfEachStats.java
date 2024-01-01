@@ -1,7 +1,13 @@
+import java.util.Random;
+
 public class OneOfEachStats {
 	public static void main (String[] args) {
 
 		int T = Integer.parseInt(args[0]);
+		int seed = Integer.parseInt(args[1]);
+
+		Random generator = new Random(seed);
+
 		double avg = 0;
 		int num_of_two = 0;
 		int num_of_three = 0;
