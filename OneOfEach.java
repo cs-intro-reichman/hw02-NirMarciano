@@ -17,6 +17,8 @@ public class OneOfEach {
  				System.out.print("g ");
  			}
  			check = str1.contains("b") && str1.contains("g") ;
+			// # Feedback: It seems you're using the 'contains' method, which might not have been covered in class. 
+        		// If this method is not allowed, consider implementing a custom function or using alternative approaches taught in class.
  		}
 
  		System.out.println();
